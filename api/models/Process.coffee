@@ -5,7 +5,16 @@
 
 module.exports =
 
+  types:
+    present: () ->
+      @orderPresent
+
   attributes:
     order:
       model: 'order'
-      required: true
+      present: true
+
+  beforeValidate: (values, cb) ->
+    Order.findOne(values.order).then (order) =>
+      values.orderPresent = !!order
+      cb()

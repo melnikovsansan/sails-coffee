@@ -25,6 +25,7 @@
     "sails-disk": "~0.10.0",
     "sails-generate-controller-coffee": "0.0.0",
     "sails-generate-model-coffee": "^0.10.9",
+    "sails-generate-policy": "^0.1.1",
     "sails-hook-autoreload": "^0.11.5",
     "sails-mongo": "^0.11.2"
   },
