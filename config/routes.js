@@ -36,7 +36,7 @@ module.exports.routes = {
     view: 'homepage'
   },
   'get /api/processes/:order': 'process.find',
-  'post /api/processes/:order': 'process.create'
+  'get /api/processes1/:order': 'process.create'
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
