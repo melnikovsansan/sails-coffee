@@ -5,4 +5,7 @@
 
 module.exports =
 
-  attributes: {}
+  attributes:
+    order:
+      model: 'order'
+      required: true

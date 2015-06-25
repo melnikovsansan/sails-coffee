@@ -5,4 +5,7 @@
 
 module.exports =
 
-  attributes: {}
+  attributes:
+    processes:
+      collection: 'process'
+      via: 'order'
